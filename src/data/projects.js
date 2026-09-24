@@ -3,10 +3,10 @@ export const categories = ['all', 'web', 'design'];
 export const projectsData = [
 {
 id: 1,
-title: 'Weather App',
-description: 'Real-time weather for any city',
-longDesc: 'A fully responsive weather application that shows current conditions and 5-day forecasts.',
-tech: ['React', 'API'],
+title: 'DRIP',
+description: 'Centralized fashion wishlist and price tracker   ',
+longDesc: 'web-scraping fashion aggregator that syncs fragmented wishlists into a single visual catalog for effortless price tracking and outfit planning',
+tech: ['React', 'Vite','FastAPI'],
 category: 'web',
 featured: true,
 liveUrl: '#',
@@ -14,10 +14,10 @@ githubUrl: '#'
 },
 {
 id: 2,
-title: 'Portfolio Site',
-description: 'This very portfolio website',
-longDesc: 'A multi-page React portfolio with routing, dark mode, and live GitHub stats.',
-tech: ['React', 'CSS'],
+title: 'TREMOR',
+description: 'Enterprise incident management and triage platform ',
+longDesc: 'real-time incident response and crisis intelligence platform designed for efficient enterprise triage and monitoring.',
+tech: ['React', 'Vite','FastAPI'],
 category: 'web',
 featured: true,
 liveUrl: '#',
@@ -25,19 +25,21 @@ githubUrl: '#'
 },
 {
 id: 3,
-title: 'Todo Manager',
-description: 'Kanban task board',
-longDesc: 'A full-featured task manager with columns and drag-and-drop support.',
-tech: ['JavaScript', 'HTML'],
+title: 'ATTENDENCE TRACKER',
+description: 'Streamlined student or employee attendance management system',
+longDesc: 'A digital management tool designed to track, record, and monitor attendance records efficiently with real-time logs and summary reports.',
+tech: ['React', 'Vite','CSS'],
 category: 'design',
 featured: false,
-liveUrl: '#',
+liveUrl: 'https://attendance-tracker17.netlify.app/',
 githubUrl: '#'
 }
 ];
 export const SKILLS = [
-  { name: 'HTML5', level: 'Advanced', icon: '🌐' },
-  { name: 'CSS3', level: 'Advanced', icon: '🎨' },
-  { name: 'JavaScript', level: 'Advanced', icon: '⚡' },
-  { name: 'React', level: 'Intermediate', icon: '⚛️' }
+  { name: 'HTML5', level: 'Intermediate', icon: '🌐' },
+  { name: 'CSS3', level: 'Intermediate', icon: '🎨' },
+  { name: 'JavaScript', level: 'Intermediate', icon: '⚡' },
+  { name: 'React', level: 'Intermediate', icon: '⚛️' },
+  { name:'python', level: 'Intermediate', icon: '🐍' },
+  {name:'tensorflow', level: 'Intermediate', icon: '🤖'},
 ];
