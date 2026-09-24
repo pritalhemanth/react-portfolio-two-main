@@ -14,7 +14,7 @@ function GitHubStats({ username }) {
             try {
                 setLoading(true);
                 // Talk to the GitHub API Waiter
-                const response = await fetch(`https://api.github.com/users/${username}`);
+                const response = await fetch(`https://api.github.com/users/$pritalhemanth`);
                 
                 if (!response.ok) throw new Error('User not found');
                 
